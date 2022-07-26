@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:myapp/class-3.dart';
 import 'package:myapp/class6.dart';
 import 'package:myapp/class_5.dart';
+import 'package:myapp/class_7.dart';
 import 'package:myapp/problem.dart';
 
 void main() {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: Class6());
+        home: Reviews());
   }
 }
 
